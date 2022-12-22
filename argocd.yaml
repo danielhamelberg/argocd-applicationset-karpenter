@@ -1,0 +1,8 @@
+            # insert into argocd.yaml
+            configs:
+              repositories:
+                karpenter-oci-helm-repo:
+                  url: public.ecr.aws/karpenter/karpenter
+                  type: helm
+                  name: karpenter
+                  enableOCI: "true"
