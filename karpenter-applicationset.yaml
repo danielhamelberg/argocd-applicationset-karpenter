@@ -17,7 +17,7 @@ spec:
       source:
         # ArgoCD will create a pull command by combining {source.repoURL}/{source.chart}
         repoURL: public.ecr.aws/karpenter
-        targetRevision: "v0.20.2"
+        targetRevision: "v0.20.0"
         chart: karpenter
         path: ""
         helm:
